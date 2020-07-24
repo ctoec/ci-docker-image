@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:12
 
 RUN apt-get update && \
     apt-get -y install  xvfb curl gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 \
